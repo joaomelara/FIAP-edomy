@@ -1,0 +1,189 @@
+.iconMenu { 
+    font-size: 2rem; 
+}
+.profileIcon{
+    font-size: 2rem;
+}
+.navbar-nav { 
+    margin-left: auto; 
+}
+.messageIcon{
+    font-size: 2rem;
+}
+.bg-primary {
+    background-color: #033E8C !important;
+  }
+.pb-21 {
+    padding-bottom: 9.5rem !important;
+}
+.pt-10 {
+    padding-top: 4rem !important;
+  }
+.moneyGeneral{
+    margin-top: -10rem;
+    
+}
+
+.iconCard{
+    font-size: 2rem;
+}
+
+.moneyTable{
+    margin: 55px;
+}
+
+body{
+    background-color: #f1f5f9;
+}
+
+.custom-table {
+    width: 92%; 
+    border-collapse: separate;
+    border-spacing: 0; 
+    border: 1px solid #d2d2d2; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    margin-top: 20px;
+  }
+  
+  .custom-table th, .custom-table td {
+    border-top: none; 
+    border-right: none; 
+    border-left: none;
+    border-bottom: 1px solid #d2d2d2; 
+    padding: 10px; 
+  }
+
+  th {
+    font-weight: normal;
+}
+.custom-h2up {
+    font-size: 2rem; 
+    font-weight: bold; 
+    line-height: 1.2; 
+    color: #178C00; 
+  }
+.custom-h2down{
+    font-size: 2rem; 
+    font-weight: bold; 
+    line-height: 1.2; 
+    color: #DF2935; 
+}
+
+.data {
+    border: 1px solid #d2d2d2; 
+    border-radius: 8px;
+    padding: 8px; 
+    font-size: 1rem; 
+    outline: none; 
+    transition: border-color 0.3s ease; 
+}
+
+.data:focus {
+    border-color: #033E8C; 
+    box-shadow: 0 0 5px rgba(3, 62, 140, 0.5); 
+}
+
+.transferButton{
+    font-weight: bold; 
+    margin-right: 55px;
+    border: 1px solid #d2d2d2; 
+    border-radius: 8px;
+    padding: 8px; 
+    font-size: 1rem; 
+    outline: none;
+    color: #212529;
+}
+.custom-icon {
+    width: 2rem;  
+    height: 2rem; 
+    object-fit: cover; 
+}
+
+.icon-link {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  .sidebar {
+    height: 90%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 67.6px; 
+    left: 0;
+    background-color: #F2E6FE;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 16px; 
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #212529;
+    display: block;
+    transition: 0.3s;
+    
+  }
+  
+  .sidebar a:hover {
+    color: #033E8C;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
+  html, body {
+    height: 100%; /* Define que o HTML e o body ocupam toda a altura da janela */
+    margin: 0; /* Remove margens padrão */
+}
+
+body {
+    display: flex;
+    flex-direction: column; /* Permite alinhar os elementos em coluna */
+    padding-top: 67.5px;
+}
+
+.container-fluid.moneyGeneral {
+    flex: 1; /* Faz com que este elemento ocupe o espaço disponível */
+}
+
+  .piggy-icon {
+    font-size: 4rem; 
+    color: #022859;
+    position: absolute; 
+    bottom: 20px; 
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-bottom: 80px;
+   
+}
